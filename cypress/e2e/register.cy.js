@@ -68,7 +68,7 @@ it('TC 07 - Registration failed due to all field are blank', () => {
   cy.contains('Password is required')
 })
 
-it.only('TC 08 - Registration failed due email already exist', () => {
+it('TC 08 - Registration failed due email already exist', () => {
   cy.fixture("dataUsers").then((users) => {
     const datauser = users;
     cy.Registration(datauser.firstName, datauser.lastName, datauser.email, datauser.password, datauser.confirmPassword)

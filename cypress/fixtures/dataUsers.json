@@ -1,7 +1,7 @@
 { 
   "firstName": "Mira",
   "lastName": "Fox",
-  "email": "mirandaaa@google.com",
+  "email": "mirandaa@google.com",
   "password": "Mira123",
   "confirmPassword": "Mira123",
   "wrongFirstName": "Mira98!",
